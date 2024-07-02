@@ -18,6 +18,23 @@ btn.addEventListener('click', function() {
     let check_email= false;
 
     //Ciclo Array
+
+    for(i=0; i < emails.length; i++) {
+
+        if(emails(i) = true ) {
+            check_email = true;}
+    }
+
+    if (check_email){
+        console.log('Mail trovata. Benevenuto');
+    }
+    else {
+        console.log('Mail non trovata. Accesso vietato');
+
+    }
+
+
+
 }
 
 )
