@@ -1,4 +1,4 @@
-//Gioco dei dadi
+// //Gioco dei dadi
 
 //Genero un numero random per l utente
 let user_number = Math.floor(Math.random() * 6 + 1);
@@ -9,10 +9,10 @@ let pc_number = Math.floor(Math.random() * 6 + 1);
 // Confronto i due numeri 
 
 if (user_number > pc_number) {
-    console.log(`Numero utente ${user_number}, numero pc ${pc_number}ai vinto) `)
+    console.log(`Numero utente ${user_number}, numero pc ${pc_number}hai vinto) `)
 }
 else if (user_number < pc_number) {
-    console.log(`Numero utente ${user_number}, numero pc ${pc_number}ai vinto) `)
+    console.log(`Numero utente ${user_number}, numero pc ${pc_number}hai perso) `)
 
 }
 else {
@@ -65,17 +65,4 @@ else {
 }
 
 
-// Confronto i due numeri 
-
-if (user_number > pc_number) {
-    console.log(`Numero utente ${user_number}, numero pc ${pc_number}ai vinto) `)
-}
-else if (user_number < pc_number) {
-    console.log(`Numero utente ${user_number}, numero pc ${pc_number}ai vinto) `)
-
-}
-else {
-
-    console.log('Pareggio')
-}
-
+ 
