@@ -9,9 +9,11 @@ let emails = ['red@mail.com', 'black@mail.com', 'green@mail.com', 'blue@mail.com
 const btn = document.getElementById('check');
 
 //Aggiungo evento clcik al pulsante
+
 btn.addEventListener('click', function() {
 
     //recupero i valori input da email
+
     let user_email = document.getElementById('email').value;
 
     //Definico una variabile  flag per il controllo della presenza della mail
@@ -21,8 +23,10 @@ btn.addEventListener('click', function() {
 
     for(i=0; i < emails.length; i++) {
 
-        if(emails(i) = true ) {
-            check_email = true;}
+        if(emails[i] === user_email ) {
+            check_email = true;
+            break;
+        } // Esce dal ciclo una volta trovata l email 
     }
 
     if (check_email){
